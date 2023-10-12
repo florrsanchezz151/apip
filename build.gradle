@@ -42,7 +42,7 @@ tasks.named('test') {
 
 jar {
 	manifest {
-		attributes 'ApiApplication': 'com.facu.example.APIApplication' // Reemplaza 'tu.paquete.MainClass' con la clase principal de tu aplicación
+		attributes 'ApiApplication': 'com.example.API' // Reemplaza 'tu.paquete.MainClass' con la clase principal de tu aplicación
 	}
 }
 
